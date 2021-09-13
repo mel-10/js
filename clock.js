@@ -40,7 +40,7 @@ var showCurrentTime =function()
     
 };
 
-var updateClock= function();
+var updateClock= function()
 {
     var time = new Date().getHours();
     var messageText;
