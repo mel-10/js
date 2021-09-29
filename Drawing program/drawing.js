@@ -22,15 +22,15 @@ canvas.addEventListener('mousedown', (e) =>{
 }
 )
 
-document.addEventListener('mouseup' (e) =>{
+document.addEventListener('mouseup' ,(e) =>{
     isPressed=false;
     
-    x=undefined;
-    y=undefined;
+    x=undefined
+    y=undefined
 
 })
 
-canvas.addEventListener('mousemove' (e) =>{
+canvas.addEventListener('mousemove', (e) =>{
     if(isPressed){
         const x2= e.offsetX;
         const y2= e.offsetX;

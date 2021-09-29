@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-*{
-    box box-sizing: border-box;
+* {
+     box-sizing: border-box;
 }
 
 body{
@@ -27,6 +27,6 @@ canvas{
     padding: 1rem;
 }
 
-.toolbox > *: last-child{
+.toolbox > *:last-child{
     margin-left : auto;
 }
